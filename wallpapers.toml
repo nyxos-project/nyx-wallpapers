@@ -1,0 +1,22 @@
+# Which wallpapers belong to which Nyx theme. The theme service reads this; `default`
+# is what a new install shows. Paths are relative to this repository.
+
+[nyx-dark]
+default = "nyx-dark/monochrome/nyx_monochrome_02_4K.jpg"
+monochrome = [
+  "nyx-dark/monochrome/nyx_monochrome_01_4K.jpg",
+  "nyx-dark/monochrome/nyx_monochrome_02_4K.jpg",
+  "nyx-dark/monochrome/nyx_monochrome_03_4K.jpg",
+  "nyx-dark/monochrome/nyx_monochrome_04_4K.jpg",
+]
+celestial = [
+  "nyx-dark/celestial/nyx_celestial_01_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_02_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_03_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_04_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_05_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_06_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_07_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_08_4K.jpg",
+  "nyx-dark/celestial/nyx_celestial_09_4K.jpg",
+]
