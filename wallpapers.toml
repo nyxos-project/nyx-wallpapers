@@ -1,8 +1,56 @@
-# Which wallpapers belong to which Nyx theme. The theme service reads this; `default`
-# is what a new install shows. Paths are relative to this repository.
+# Which wallpapers belong to which Nyx theme. The theme service reads this: `default`
+# is what a new install shows on the desktop and `lock` on the lock and login screens.
+# The other keys are sets to choose from. Paths are relative to this repository.
+
+[catppuccin-frappe]
+default = "catppuccin-frappe/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "catppuccin-frappe/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["catppuccin-frappe/wordmark/nyx_wordmark_desktop_4K.png", "catppuccin-frappe/wordmark/nyx_wordmark_lock_4K.png"]
+
+[catppuccin-latte]
+default = "catppuccin-latte/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "catppuccin-latte/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["catppuccin-latte/wordmark/nyx_wordmark_desktop_4K.png", "catppuccin-latte/wordmark/nyx_wordmark_lock_4K.png"]
+
+[catppuccin-macchiato]
+default = "catppuccin-macchiato/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "catppuccin-macchiato/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["catppuccin-macchiato/wordmark/nyx_wordmark_desktop_4K.png", "catppuccin-macchiato/wordmark/nyx_wordmark_lock_4K.png"]
+
+[catppuccin-mocha]
+default = "catppuccin-mocha/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "catppuccin-mocha/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["catppuccin-mocha/wordmark/nyx_wordmark_desktop_4K.png", "catppuccin-mocha/wordmark/nyx_wordmark_lock_4K.png"]
+
+[dracula]
+default = "dracula/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "dracula/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["dracula/wordmark/nyx_wordmark_desktop_4K.png", "dracula/wordmark/nyx_wordmark_lock_4K.png"]
+
+[everforest]
+default = "everforest/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "everforest/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["everforest/wordmark/nyx_wordmark_desktop_4K.png", "everforest/wordmark/nyx_wordmark_lock_4K.png"]
+
+[gruvbox-dark]
+default = "gruvbox-dark/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "gruvbox-dark/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["gruvbox-dark/wordmark/nyx_wordmark_desktop_4K.png", "gruvbox-dark/wordmark/nyx_wordmark_lock_4K.png"]
+
+[kanagawa]
+default = "kanagawa/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "kanagawa/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["kanagawa/wordmark/nyx_wordmark_desktop_4K.png", "kanagawa/wordmark/nyx_wordmark_lock_4K.png"]
+
+[nord]
+default = "nord/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "nord/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["nord/wordmark/nyx_wordmark_desktop_4K.png", "nord/wordmark/nyx_wordmark_lock_4K.png"]
 
 [nyx-dark]
-default = "nyx-dark/monochrome/nyx_monochrome_02_4K.jpg"
+default = "nyx-dark/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "nyx-dark/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["nyx-dark/wordmark/nyx_wordmark_desktop_4K.png", "nyx-dark/wordmark/nyx_wordmark_lock_4K.png"]
 monochrome = [
   "nyx-dark/monochrome/nyx_monochrome_01_4K.jpg",
   "nyx-dark/monochrome/nyx_monochrome_02_4K.jpg",
@@ -20,3 +68,38 @@ celestial = [
   "nyx-dark/celestial/nyx_celestial_08_4K.jpg",
   "nyx-dark/celestial/nyx_celestial_09_4K.jpg",
 ]
+
+[nyx-light]
+default = "nyx-light/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "nyx-light/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["nyx-light/wordmark/nyx_wordmark_desktop_4K.png", "nyx-light/wordmark/nyx_wordmark_lock_4K.png"]
+
+[one-dark-pro]
+default = "one-dark-pro/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "one-dark-pro/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["one-dark-pro/wordmark/nyx_wordmark_desktop_4K.png", "one-dark-pro/wordmark/nyx_wordmark_lock_4K.png"]
+
+[rose-pine]
+default = "rose-pine/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "rose-pine/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["rose-pine/wordmark/nyx_wordmark_desktop_4K.png", "rose-pine/wordmark/nyx_wordmark_lock_4K.png"]
+
+[solarized-dark]
+default = "solarized-dark/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "solarized-dark/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["solarized-dark/wordmark/nyx_wordmark_desktop_4K.png", "solarized-dark/wordmark/nyx_wordmark_lock_4K.png"]
+
+[tokyo-night]
+default = "tokyo-night/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "tokyo-night/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["tokyo-night/wordmark/nyx_wordmark_desktop_4K.png", "tokyo-night/wordmark/nyx_wordmark_lock_4K.png"]
+
+[tokyo-night-moon]
+default = "tokyo-night-moon/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "tokyo-night-moon/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["tokyo-night-moon/wordmark/nyx_wordmark_desktop_4K.png", "tokyo-night-moon/wordmark/nyx_wordmark_lock_4K.png"]
+
+[tokyo-night-storm]
+default = "tokyo-night-storm/wordmark/nyx_wordmark_desktop_4K.png"
+lock = "tokyo-night-storm/wordmark/nyx_wordmark_lock_4K.png"
+wordmark = ["tokyo-night-storm/wordmark/nyx_wordmark_desktop_4K.png", "tokyo-night-storm/wordmark/nyx_wordmark_lock_4K.png"]
