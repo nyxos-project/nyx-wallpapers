@@ -21,3 +21,9 @@ are in [wordmark/](wordmark).
 | --- | --- |
 | Every theme | wordmark (desktop, lock) |
 | Nyx Dark | wordmark, monochrome (4), celestial (9) |
+
+## License
+
+The images are dedicated to the public domain under [CC0 1.0](LICENSE). The NyxOS name
+and wordmark are the project's marks; CC0 doesn't grant rights to use them to name
+or brand something else.
